@@ -5,16 +5,6 @@ build/
 # IntelliJ/Android Studio
 *.iml
 .idea/*
-!.idea/vcs.xml
-!.idea/compiler.xml
-!.idea/kotlinc.xml
-!.idea/runConfigurations/
-!.idea/runConfigurations.xml
-!.idea/codeStyles/
-!.idea/copyright/
-!.idea/inspectionProfiles/
-!.idea/scopes/
-!.idea/.name
 *.iws
 out/
 
