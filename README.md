@@ -11,6 +11,9 @@
 *   **design**: 앱의 디자인 시스템을 담당해요. 공통으로 사용하는 Composable 컴포넌트나 테마(Color, Typography 등) 설정을 여기서 관리하면 됩니다.
 *   **app**: 모든 모듈을 하나로 조립하는 곳이에요. Hilt를 이용한 의존성 주입(DI) 설정과 앱의 진입점이 위치합니다.
 
+<img width="1142" height="507" alt="스크린샷 2026-08-15 오후 3 50 21" src="https://github.com/user-attachments/assets/e4bb79ae-968d-4675-8b9b-35ea81a9f6ff" />
+
+
 ## 2. 프로젝트 시작하기
 GitHub의 **Use this template** 기능을 통해 새 프로젝트를 만드셨다면, 아래 순서대로 설정을 진행해주세요.
 
