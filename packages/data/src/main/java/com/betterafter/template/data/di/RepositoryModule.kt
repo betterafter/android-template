@@ -11,10 +11,5 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
-
-    @Binds
-    @Singleton
-    abstract fun bindPaymentRepository(
-        impl: PaymentRepositoryImpl,
-    ): PaymentRepository
+    // Bind your repositories here
 }

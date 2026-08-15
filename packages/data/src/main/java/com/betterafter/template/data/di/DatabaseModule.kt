@@ -3,7 +3,6 @@ package com.betterafter.template.data.di
 import android.content.Context
 import androidx.room.Room
 import com.betterafter.template.data.core.local.AppDatabase
-import com.betterafter.template.data.payment.local.PaymentDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,8 +20,4 @@ object DatabaseModule {
         Room.databaseBuilder(context, AppDatabase::class.java, "app.db")
             .fallbackToDestructiveMigration()
             .build()
-
-    @Provides
-    @Singleton
-    fun providePaymentDao(database: AppDatabase): PaymentDao = database.paymentDao()
 }

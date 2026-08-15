@@ -1,9 +1,5 @@
 package com.betterafter.template.domain.core
 
-/**
- * Flutter template의 DataState와 동일한 역할.
- * UseCase / Repository 결과의 로딩·성공·실패를 표현한다.
- */
 sealed class DataState<out T> {
     data object Initial : DataState<Nothing>()
 
