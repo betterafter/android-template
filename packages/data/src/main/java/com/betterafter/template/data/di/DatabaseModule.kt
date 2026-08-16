@@ -20,4 +20,8 @@ object DatabaseModule {
         Room.databaseBuilder(context, AppDatabase::class.java, "app.db")
             .fallbackToDestructiveMigration()
             .build()
+
+    @Provides
+    @Singleton
+    fun provideUserDao(database: AppDatabase) = database.userDao()
 }
